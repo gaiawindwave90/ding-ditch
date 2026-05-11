@@ -1,6 +1,6 @@
 (function () {
   // Set your main color here
-  const navColor = '#C1C7FF'; // Background
+  const navColor = '#909FE8'; // Background
   
   // Darken a hex color by a percentage (0-1)
   function darkenColor(hex, amount = 0.25) {
