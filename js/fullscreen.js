@@ -1443,7 +1443,7 @@ const CloudVariableBadge = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
-  defaultMessage: "This project uses cloud variables. PenguinMod uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
+  defaultMessage: "This project uses cloud variables. DingDitchMod uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
   id: "tw.cloudVariableBadge",
   values: {
     learnMore: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -2383,8 +2383,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
-const PACKAGER_URL = 'https://penguinmod.github.io/PenguinMod-Packager';
-const PACKAGER_ORIGIN = "https://penguinmod.github.io";
+const PACKAGER_URL = 'https://gaiawindwave90.github.io/DingDitchMod-Packager';
+const PACKAGER_ORIGIN = "https://gaiawindwave90.github.io/ding-ditch";
 const readBlobAsArrayBuffer = blob => new Promise((resolve, reject) => {
   const fr = new FileReader();
   fr.onload = () => resolve(fr.result);
@@ -3033,7 +3033,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 if (window.parent !== window) {
   // eslint-disable-next-line no-alert
-  alert('This page is embedding PenguinMod/TurboWarp in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
+  alert('This page is embedding DingDitchMod/TurboWarp in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
   throw new Error('Invalid embed');
 }
 let announcement = null;
@@ -3069,7 +3069,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
 // eslint-disable-next-line max-len
 , {
-  defaultMessage: "PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
+  defaultMessage: "DingDitchMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
   id: "tw.footer.disclaimer"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
   className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerColumns
@@ -3096,7 +3096,7 @@ const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.c
   href: "https://desktop.turbowarp.org/"
 }, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://packager.turbowarp.org/"
-}, 'TurboWarp Packager'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+}, 'DingDitchMod Packager'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://docs.turbowarp.org/embedding"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Embedding",
@@ -3141,9 +3141,9 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
   }
   handleUpdateProjectTitle(title, isDefault) {
     if (isDefault || !title) {
-      document.title = "PenguinMod - ".concat(this.props.intl.formatMessage(messages.defaultTitle));
+      document.title = "DingDitchMod - ".concat(this.props.intl.formatMessage(messages.defaultTitle));
     } else {
-      document.title = "".concat(title, " - PenguinMod");
+      document.title = "".concat(title, " - DingDitchMod");
     }
   }
   render() {
@@ -3233,12 +3233,12 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"]
     // eslint-disable-next-line max-len
     , {
-      defaultMessage: "PenguinMod is a mod of TurboWarp to add new blocks and features. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
+      defaultMessage: "DingDitchMod is a mod of TurboWarp to add new blocks and features. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
       id: "tw.home.description"
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
       className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-      studio: "27205657"
+      studio: "51419285"
     }))) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
   }
 }
