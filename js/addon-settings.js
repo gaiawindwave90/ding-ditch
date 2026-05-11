@@ -1333,7 +1333,7 @@ if (locale !== 'en') {
     Object.assign(settingsTranslations, messages);
   }
 }
-document.title = "".concat(settingsTranslations.title, " - PenguinMod");
+document.title = "".concat(settingsTranslations.title, " - DingDitchMod");
 const theme = Object(_lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__["getInitialDarkMode"])() ? 'dark' : 'light';
 document.body.setAttribute('theme', theme);
 let _throttleTimeout;
