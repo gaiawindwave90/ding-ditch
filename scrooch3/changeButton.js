@@ -1,17 +1,17 @@
 (function () {
   function updateButton() {
     const links = document.querySelectorAll(
-      'a.menu-bar_feedback-link_1BnAR[href="https://scratch.mit.edu/discuss/topic/636814/"]'
+      'a.menu-bar_feedback-link_1BnAR[href="https://gaiawindwave90.github.io/"]'
     );
 
     links.forEach(link => {
       // Change link
-      link.href = "https://www.google.com";
+      link.href = "https://gaiawindwave90.github.io/";
 
       // Change text inside
       const span = link.querySelector(".button_content_3jdgj span");
       if (span) {
-        span.textContent = "Google.com";
+        span.textContent = "Back to Gaia Zone!";
       }
     });
   }
