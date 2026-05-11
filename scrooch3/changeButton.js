@@ -11,7 +11,7 @@
       // Change text inside
       const span = link.querySelector(".button_content_3jdgj span");
       if (span) {
-        span.textContent = "Google";
+        span.textContent = "Google.com";
       }
     });
   }

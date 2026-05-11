@@ -4,7 +4,7 @@ function addHomeIcon() {
   if (!menu || menu.querySelector('.home-favicon')) return;
 
   const link = document.createElement('a');
-  link.href = 'https://cattymod.app';
+  link.href = 'https://gaiawindwave90.github.io/ding-ditch';
   link.target = '_self';
   link.style.display = 'flex';
   link.style.alignItems = 'center';
@@ -17,7 +17,7 @@ function addHomeIcon() {
   link.style.transition = 'background 0.15s ease';
 
   const icon = document.createElement('img');
-  icon.src = 'https://cattymod.app/assets/home.png';
+  icon.src = 'https://static.wikia.nocookie.net/incredibox-sprunki/images/d/d2/Wendasvg.svg';
   icon.className = 'home-favicon';
   icon.style.filter = 'brightness(0) invert(1)'; // pure white
   icon.style.maxHeight = '100%';
